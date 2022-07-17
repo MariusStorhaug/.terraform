@@ -1,5 +1,6 @@
 # .terraform
 
+Script to download and "install" terraform.
 ```powershell
 $release = Invoke-RestMethod 'https://api.github.com/repos/hashicorp/terraform/releases/latest'
 $version = ($release.tag_name).Replace('v', '')
